@@ -5,6 +5,8 @@
   translation: "Jan 2, 2006 15:04:05"
 - id: postedOnDate
   translation: "Posted on {{ .Count }}"
+- id: lastModified
+  translation: "(Last modified on {{ .Count }})"
 - id: translationsLabel
   translation: "Other languages: "
 - id: translationsSeparator
@@ -20,7 +22,7 @@
 - id: nextPost
   translation: "Next Post"
 - id: readTime
-  translation: "min"
+  translation: "minutes"
 - id: words
   translation: "words"
 
@@ -31,7 +33,7 @@
 
 # Footer
 - id: poweredBy # Accepts HTML
-  translation: '<a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+  translation: '<a href="http://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
 
 # Navigation
 - id: toggleNavigation
@@ -61,4 +63,12 @@
 - id: yourWebsite
   translation: "Your website"
 
+# Delayed Disqus
+- id: show
+  translation: "Show"
+- id: comments
+  translation: "comments" 
 
+# Related posts
+- id: seeAlso
+  translation: "See also"

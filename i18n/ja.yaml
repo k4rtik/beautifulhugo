@@ -5,6 +5,8 @@
   translation: "2 Jan, 2006 15:04:05"
 - id: postedOnDate
   translation: "{{ .Count }}に投稿"
+- id: lastModified
+  translation: "(最終更新日時{{ .Count }})"
 - id: translationsLabel
   translation: "翻訳："
 - id: translationsSeparator
@@ -20,9 +22,9 @@
 - id: nextPost
   translation: "次ページ"
 - id: readTime
-  translation: "min"
+  translation: "分間"
 - id: words
-  translation: "mots"
+  translation: "言葉"
 
 
 # 404 page
@@ -31,11 +33,13 @@
 
 # Footer
 - id: poweredBy # Accepts HTML
-  translation: '起動力に<a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a> &nbsp;&bull;&nbsp; テーマに<a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>に基づいている<a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+  translation: '起動力に<a href="http://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> &nbsp;&bull;&nbsp; テーマに<a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>に基づいている<a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
 
 # Navigation
 - id: toggleNavigation
   translation: "メニューを切り替え"
+- id: languageSwitcherLabel
+  translation: "言語"
 - id: gcseLabelShort
   translation: "検索"
 - id: gcseLabelLong
@@ -45,20 +49,26 @@
 
 # Staticman
 - id: noComment
-  translation: "No comment"
+  translation: "0 件のコメント"
 - id: oneComment
-  translation: "comment"
+  translation: "件のコメント"
 - id: moreComment
-  translation: "comments"
+  translation: "件のコメント"
 - id: useMarkdown
-  translation: "You can use Markdown syntax"
+  translation: "Markdown を使用できます"
 - id: yourName
-  translation: "Your name"
+  translation: "名前"
 - id: yourEmail
-  translation: "Your email address"
+  translation: "メールアドレス"
 - id: yourWebsite
-  translation: "You website"
+  translation: "ウェブサイト"
 
+# Delayed Disqus
+- id: show
+  translation: "ショー"
+- id: comments
+  translation: "コメント" 
 
-
-
+# Related posts
+- id: seeAlso
+  translation: "も参照してください"

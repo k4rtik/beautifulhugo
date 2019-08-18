@@ -5,8 +5,10 @@
   translation: "2 Jan, 2006 15:04:05"
 - id: postedOnDate
   translation: "Posté le {{ .Count }}"
+- id: lastModified
+  translation: "(Dernière modification le {{ .Count }})"
 - id: translationsLabel
-  translation: "Autres langues: "
+  translation: "Autres langues : "
 - id: translationsSeparator
   translation: ", "
 - id: readMore
@@ -20,18 +22,18 @@
 - id: nextPost
   translation: "Post suivant"
 - id: readTime
-  translation: "min"
+  translation: "minutes"
 - id: words
   translation: "mots"
 
 
 # 404 page
 - id: pageNotFound
-  translation: "Ourp, cette page n'existe pas. (erreur 404)"
+  translation: "Oups, cette page n'existe pas. (erreur 404)"
 
 # Footer
 - id: poweredBy # Accepts HTML
-  translation: 'Cabure avec <a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a>&nbsp;&bull;&nbsp; Avec le Theme <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapté en <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+  translation: 'Carbure avec <a href="http://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a>&nbsp;&bull;&nbsp; Avec le Theme <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapté en <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
 
 # Navigation
 - id: toggleNavigation
@@ -60,3 +62,13 @@
   translation: "Votre addresse mail"
 - id: yourWebsite
   translation: "Votre site web"
+
+# Delayed Disqus
+- id: show
+  translation: "Afficher"
+- id: comments
+  translation: "commentaires" 
+
+# Related posts
+- id: seeAlso
+  translation: "Voir également"
